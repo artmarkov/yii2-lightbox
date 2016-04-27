@@ -13,7 +13,7 @@ class Lightbox extends Widget {
      * Array of items for displaying. Available options:
      * 
      * - image - [required] url of the original image
-     * - thumbnail - [required] url of the thumbnail image
+     * - thumb - [required] url of the thumbnail image
      * - title - [optional] caption of the image
      * - group - [optional] group of the image set
      * 
@@ -59,7 +59,7 @@ class Lightbox extends Widget {
         $content = '';
         
         foreach ($this->items as $item) {
-            if (!isset($item['thumbnail']) || !isset($item['image'])) {
+            if (!isset($item['thumb']) || !isset($item['image'])) {
                 continue;
             }
 
@@ -72,7 +72,7 @@ class Lightbox extends Widget {
             }
             
             $linkOptions = ArrayHelper::merge($linkOptions, $this->linkOptions);
-            $image = Html::img($item['thumbnail'], $this->imageOptions);
+            $image = Html::img($item['thumb'], $this->imageOptions);
             $content .= Html::a($image, $item['image'], $linkOptions);
             
         }

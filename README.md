@@ -39,13 +39,13 @@ echo Lightbox::widget([
     'imageOptions' => ['class' => 'thumbnail'],
     'items' => [
         [
-            'thumbnail' => '/images/image01-120x90.jpg',
+            'thumb' => '/images/image01-120x90.jpg',
             'image' => '/images/image01.jpg',
             'title' => 'Image 1',
             'group' => 'image-set1',
         ],
         [
-            'thumbnail' => '/images/image02-120x90.jpg',
+            'thumb' => '/images/image02-120x90.jpg',
             'image' => '/images/image02.jpg',
             'title' => 'Image 2',
             'group' => 'image-set1',
