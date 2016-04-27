@@ -1,0 +1,23 @@
+{
+    "name": "yeesoft/yii2-lightbox",
+    "description": "Lightbox widget for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "module", "lightbox"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Taras Makitra",
+            "email": "makitrataras@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/lightbox2": "~2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "yeesoft\\lightbox\\": ""
+        }
+    }
+}
+
