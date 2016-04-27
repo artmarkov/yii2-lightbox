@@ -31,7 +31,11 @@ Once the extension is installed, simply add widget to your page as follows:
 use yeesoft\lightbox\Lightbox;
 
 echo Lightbox::widget([
-    'options' => ['class' => 'pull-left'],
+    'options' => [
+        'fadeDuration' => '2000',
+        'albumLabel' => "Image %1 of %2",
+    ],
+    'linkOptions' => ['class' => 'pull-left'],
     'imageOptions' => ['class' => 'thumbnail'],
     'items' => [
         [
