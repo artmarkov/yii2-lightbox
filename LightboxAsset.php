@@ -9,11 +9,11 @@ class LightboxAsset extends AssetBundle {
     public $sourcePath = '@bower/lightbox2';
 
     public $js = [
-        'js/lightbox.min.js',
+        'dist/js/lightbox.min.js',
     ];
 
     public $css = [
-        'css/lightbox.css'
+        'dist/css/lightbox.min.css'
     ];
 
     public $depends = [
