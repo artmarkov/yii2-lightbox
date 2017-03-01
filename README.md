@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist yeesoft/yii2-lightbox "*"
+composer require --prefer-dist yeesoft/yii2-lightbox "~0.1.0"
 ```
 
 or add
 
 ```json
-"yeesoft/yii2-lightbox": "*"
+"yeesoft/yii2-lightbox": "~0.1.0"
 ```
 
 to the require section of your `composer.json` file.
